@@ -1,5 +1,8 @@
 {
   "editor.default_syntax" : "svelte",
+  "index.use_scm_ignored_files" : true,
   "workspace.color" : 3,
-  "workspace.name" : "No Code Atlas"
+  "workspace.name" : "No Code Atlas",
+  "workspace.preview_server_allow_external" : true,
+  "workspace.preview_server_port" : 5173
 }
