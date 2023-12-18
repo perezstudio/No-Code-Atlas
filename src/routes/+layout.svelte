@@ -8,8 +8,8 @@
   }
 </script>
 
-<nav class="container mx-auto flex flex-col md:flex-row grow justify-between content-center px-4 py-4">
-  <div class="flex flex-row justify-between content-center">
+<nav class="container mx-auto flex flex-col md:flex-row grow justify-between md:items-center px-4 py-4">
+  <div class="flex flex-row justify-between">
     <img src="no-code-atlas-logo.svg" alt="Logo" class="h-6">
     <img src="Menu Icon.svg" alt="Menu Button" class="md:hidden" on:click={toggleMobileMenu}>
   </div>

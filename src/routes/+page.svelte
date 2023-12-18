@@ -1,9 +1,11 @@
-<div class="container mx-auto p-10 flex flex-col gap-20">
-    <div class="flex flex-col gap-4">
+<div class="container mx-auto p-10 flex flex-col gap-20 overflow-hidden md:flex-row md:items-center">
+    <div class="flex flex-col gap-4 md:min-w-[50%]">
         <h1 class="text-slate-900 text-5xl font-bold">Craft Your Future with No Code</h1>
         <p>Harness the power of No Code Atlas, your key to creating sophisticated tools, building prosperous businesses, and enhancing your everyday life. Experience the brilliance of no code and revolutionize your world!</p>
-        <a href="#"><p class="px-4 py-2.5">Test</p></a>
-        <a href="#"><p>Test</p></a>
+        <div class="flex flex-col gap-4 md:flex-row">
+            <a href="#"><p class="px-4 py-2.5 bg-lime-200 rounded-lg text-center">Find A Solution</p></a>
+            <a href="#"><p class="px-4 py-2.5 bg-slate-200 rounded-lg text-center">See All Tools</p></a>
+        </div>
     </div>
     <img src="Header Image - Mobile.png" alt="No Code Builder Image">
 </div>
