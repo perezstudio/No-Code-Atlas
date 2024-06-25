@@ -51,7 +51,7 @@ export default function Index() {
           }
         } else {
           // Place a gray background
-          gridItems.push(<div key={`gray-${rowIndex}-${colIndex}`} className="bg-gray-200 w-24 h-24 rounded-lg"></div>);
+          gridItems.push(<div key={`gray-${rowIndex}-${colIndex}`} className="bg-gray-200 dark:bg-gray-800 w-24 h-24 rounded-lg"></div>);
         }
       }
     }
@@ -68,7 +68,7 @@ export default function Index() {
             <div className="flex flex-col gap-6 max-w-lg">
               <span className="italic text-gray-400">Coming Soon</span>
               <p className="text-base font-medium">Your comprehensive hub for everything related to no code technology including an extensive tool finder, educational classes, and a supportive community.</p>
-              <h1 className="text-5xl text-gray-900 font-bold">Get notified when we launch</h1>
+              <h1 className="text-5xl text-gray-900 font-bold dark:text-white">Get notified when we launch</h1>
               <div>
               </div>
               <div>

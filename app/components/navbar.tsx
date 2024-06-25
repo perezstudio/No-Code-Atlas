@@ -1,9 +1,10 @@
 import React from 'react';
+import ImageSwitcher from "~/components/imageSwitcher";
 
 const Navbar: React.FC = () => {
 	return(
 		<nav className="p-6">
-			<img src="brand_logo.svg" alt="No Code Atlas Logo" />
+			<ImageSwitcher lightImgSrc="brand_logo.svg" altText="No Code Atlas Brand Logo" />
 		</nav>
 	);
 };
